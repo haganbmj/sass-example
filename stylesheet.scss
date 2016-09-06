@@ -1,0 +1,27 @@
+@import "base";
+
+/** from stylesheet.scss **/
+
+
+/* Override a variable */
+$primary-color: purple;
+
+
+
+/* Nested selectors */
+#scorebar {
+	width: 150px;
+	height: 20px;
+	
+	span.player {
+		font-color: $primary-color;
+	}
+	
+	.games {
+		border: $primary-border-style;
+	}
+}
+
+p {
+	color: red;
+}

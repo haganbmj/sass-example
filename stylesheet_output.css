@@ -1,0 +1,23 @@
+/** from base.scss **/
+/* Defining Variables */
+html {
+  font-size: 18px; }
+
+.info {
+  background-color: #2980b9; }
+
+/** from stylesheet.scss **/
+/* Override a variable */
+/* Nested selectors */
+#scorebar {
+  width: 150px;
+  height: 20px; }
+  #scorebar span.player {
+    font-color: purple; }
+  #scorebar .games {
+    border: 2px solid black; }
+
+p {
+  color: red; }
+
+/*# sourceMappingURL=stylesheet_output.css.map */

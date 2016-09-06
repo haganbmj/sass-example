@@ -1,0 +1,15 @@
+/** from base.scss **/
+
+/* Defining Variables */
+$primary-color: #2980b9;
+$primary-border-style: 2px solid black;
+
+
+
+html {
+	font-size: 18px;
+}
+
+.info {
+	background-color: $primary-color;
+}
